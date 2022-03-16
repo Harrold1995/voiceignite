@@ -1,0 +1,11 @@
+2021-07-31T13:34:12+00:00 CRITICAL Uncaught Error: Class 'Integrio_Theme_Helper' not found in /home/voiclmix/voiceignite.net/wp-content/plugins/integrio-core/includes/widgets/banner.php:180
+Stack trace:
+#0 /home/voiclmix/voiceignite.net/wp-includes/class-wp-widget.php(519): Banner->form(Array)
+#1 /home/voiclmix/voiceignite.net/wp-admin/includes/widgets.php(274): WP_Widget->form_callback(Array)
+#2 /home/voiclmix/voiceignite.net/wp-includes/class-wp-customize-widgets.php(1050): wp_widget_control(Array, Array)
+#3 /home/voiclmix/voiceignite.net/wp-includes/class-wp-customize-widgets.php(998): WP_Customize_Widgets->get_widget_control(Array)
+#4 /home/voiclmix/voiceignite.net/wp-includes/class-wp-customize-widgets.php(688): WP_Customize_Widgets->get_available_widgets()
+#5 /home/voiclmix/voiceignite.net/wp-includes/class-wp-hook.php(292): WP_Customize_Widgets->enqueue_scripts('')
+#6 /home/voiclmix/voiceignite.net/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#7 /home/voiclmix/voiceignite.net/wp-includes/plugin.php(484): WP_Ho in /home/voiclmix/voiceignite.net/wp-content/plugins/integrio-core/includes/widgets/banner.php on line 180
+

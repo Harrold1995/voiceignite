@@ -1,0 +1,121 @@
+.am-lite {
+  color: #354052;
+
+  &.am-lite-popover {
+    background-color: #323648;
+
+    .am-lite-popover-content {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      font-size: 12px;
+      font-weight: 500;
+      color: #ffffff;
+      text-decoration: underline;
+
+      img.am-lite-popover-icon {
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  &.am-lite-block {
+    background-color: #323648;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+
+    .am-lite-block-text {
+      text-align: left;
+      font-size: 14px;
+      font-weight: 500;
+      color: #ffffff;
+      line-height: normal;
+    }
+
+    .am-lite-block-icon {
+      margin: 5px;
+    }
+
+    .am-lite-block-button {
+      margin-left: auto;
+      margin-right: 10px;
+      width: 110px;
+      height: 55px;
+    }
+  }
+
+  &.am-lite-dialog {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 16px;
+    line-height: 1.33;
+    color: #354052;
+
+
+    .am-lite-dialog-image {
+      margin: 5px;
+    }
+
+    .am-lite-dialog-title {
+      font-size: 24px;
+      margin-bottom: 5px;
+    }
+
+    .am-lite-dialog-description {
+      margin-top: 5px;
+      opacity: 0.5;
+      word-break: break-word;
+    }
+
+    button {
+      font-weight: 500;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      width: 180px;
+    }
+
+    .am-lite-features {
+      li {
+        .am-lite-check {
+          content: url("../../img/check-circle-svg.svg");
+          display: inline-block;
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+.am-lite-dialog-no-margin {
+  margin-bottom: 0 !important;
+}
+
+.am-lite-calendar {
+  .fc-day-button, .fc-month-button, .fc-timelineDay-button, .fc-listWeek-button {
+    opacity: 0.4 !important;
+    pointer-events: none;
+  }
+}
+
+.am-lite-popover.el-popper[x-placement^=bottom] .popper__arrow:after {
+  border-bottom-color: #323648;
+}
+
+.am-lite-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.am-lite-container-disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+  pointer-events: none;
+}

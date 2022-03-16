@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SSA//Simply Schedule Appointments 1.4.6.9//EN
+CALSCALE:GREGORIAN
+X-ORIGINAL-URL:https://voiceignite.net/
+X-WR-CALDESC:Appointments from Voiceignite
+TRANSP:OPAQUE
+BEGIN:VEVENT
+UID:ssa_3customer
+DTSTAMP:20210826T154022Z
+LOCATION:
+DESCRIPTION:\nCancel/Reschedule link: \nhttps://voiceignite.net?appointment_action=edit&appointment_token=672720b251c64320b541ccff6749a3b13 \n
+URL;VALUE=URI:
+SUMMARY:Consultation Phone Call (Voiceignite)
+DTSTART:20210830T060000Z
+DTEND:20210830T063000Z
+END:VEVENT
+END:VCALENDAR
